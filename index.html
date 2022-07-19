@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>📃 My To Do List</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top-header">
+      <div>
+        <span>My To Do List</span>
+      </div>
+      
+      <nav>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Plans</a>
+        <a href="#">Learn More</a>
+      </nav>
+    </div>
+
+    <div class="hero">
+      <div class="hero-left">
+        <h1>Never miss a Task</h1>
+        <h2>Make To Do Lists with our beautiful To Do List maker.</h2>
+      </div>
+      <div class="hero-right">
+        <div id="myDIV" class="header">
+          <h2>My To Do List</h2>
+          <input type="text" id="myInput" placeholder="Add Items..." />
+          <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+
+        <ul id="myUL">
+          <li>Do exercise</li>
+          <li class="checked">Read Python Book</li>
+          <li>Make UI design</li>
+          <li>Buy veggies</li>
+          <li>Take a shower</li>
+          <li>Meet Rohan</li>
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
